@@ -25,7 +25,9 @@ The ipynb file titled `deep_learning_challenge` is the file containing my initia
 
 ### Summary
 
-**OVERALL RESULTS**
+Overall, my neural network model did not achieve the level of success that I was striving for. I think that given more time to conduct research and continue the trial and error process, I could have met the 75% success benchmark. What the current model does show is that when given 75% of the whole dataset for training, the model can 'learn' from that data and use the network developed to predict with 73% accuracy if the applicant will be successful or not. These predictions are made on the remaining 25% of the dataset used for testing. Creating this model involved the use of Pandas, SKLearn, and Tensorflow - specifically the keras libary.
+
+I believe a Logistic Regression model may be a good option for solving this classification prediction scenario with a higher level of accuracy than I was able to attain with this neural network. A logistic regression model only generates a binary outcome which is all that is needed by the foundation providing the dataset. We must consider the reason for creating a model which is to create a binary classifier that can predict whether an applicant will be successful, and because of this I believe that a logistic regression approach has potential for success.
 
 ## References
 
